@@ -77,3 +77,4 @@ Frontend: Open your browser and go to http://localhost:3000 to access   the user
 Backend API: The API will be available at http://localhost:5000.
 
 
+![MERN_CRUD_IMG](https://github.com/user-attachments/assets/ee657130-18aa-4ade-be7b-09abd5806c3e)
