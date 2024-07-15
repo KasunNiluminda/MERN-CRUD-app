@@ -38,7 +38,7 @@ const UserForm = ({ setUsers, setFilteredUsers }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post(`${API_BASE_URL}/users1`, formData);
+      const { data } = await axios.post(`${API_BASE_URL}/users`, formData);
       setUsers((prevUsers) => [...prevUsers, data]);
       setFilteredUsers((prevUsers) => [...prevUsers, data]);
       setFormData({
